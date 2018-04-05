@@ -76,7 +76,7 @@
     ( ,(ks-regexp-opt ks-types)     . font-lock-type-face)
     ( ,(ks-regexp-opt ks-constants) . font-lock-constant-face)))
 
-(defvar ks-indent 2
+(defvar ks-indent 3
   "Indentation size for ks-mode.")
 
 (defun ks-blank-line-p ()
